@@ -66,7 +66,7 @@ const Studio = () => {
               Discover Linkout
             </p>
             <p className="text-center mt-6 text-[#808080] text-lg md:px-24 px-8">
-              Automate connection requests and messaging using sales intel data. Reach 100 prospects everyday. Your sales, startup, recruiting, and freelancing will love it.
+            Automate connection requests and messaging using sales intelligence data. Reach 100 potential customers each day. You'll adore using it for hiring, business development, freelancing, and sales.
             </p>
           </div>
           {/* <div className="mt-9">
@@ -215,13 +215,13 @@ const HeroSection = () => {
           <h1 className="mt-8 text-4xl font-semibold text-center text-white md:text-6xl">
             {/* The <span className="grad">Typescript</span> API framework that boosts developer{' '}
             <span className="grad">productivity</span> */}
-            <span className="grad">LinkedIn</span> on Autopilot
+            <span className="grad">LinkedIn</span> Outreach on Autopilot
             with Safe and Secure <span className="grad">Automation</span>
             {/* The <span className='grad'>smart </span> way to develop APIs to boost developer <span className='grad'>productivity</span> */}
           </h1>
           <p className="w-3/4 mx-auto mt-8 text-lg text-center text-white text-opacity-50 md:text-xl">
             {/* Because you deserve the best developer experience */}
-            Automated Connect & Messaging Sequences. Streamlined to Slack and Teams.
+            Automate Connect & Message on LinkedIn. Get updates on Teams and Slack.
           </p>
           <div
             onClick={() => {
@@ -289,7 +289,7 @@ const LinkoutStudioBeta = ({ customText }: { customText?: string }) => {
     <a
       /* href="/studio" */
       target={"_blank"}
-      href="https://github.com/linkoutapp/"
+      href="https://linkout-interface.vercel.app/pages/login/"
       className="max-w-max mx-auto group block hover:no-underline"
       onClick={() => {
         track("Read more Linkout Studio click", {
