@@ -102,14 +102,13 @@ const config = {
         {
           to: "#",
           label: "Quickstart",
-        }, */
+        },
         {
           href: "https://github.com/linkoutapp/",
           position: "right",
           className: "header-social-link header-github-link",
           "aria-label": "GitHub",
         },
-        /*
         {
           to: "#",
           label: "Linkout",
@@ -151,7 +150,7 @@ const config = {
             }, */
             {
               label: "Twitter",
-              href: "https://github.com/linkoutapp/",
+              href: "#",
               className: "flex items-center",
             },
           ],
@@ -161,7 +160,7 @@ const config = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/linkoutapp/",
+              href: "#",
               className: "flex items-center",
             },
           ],

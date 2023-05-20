@@ -9,12 +9,12 @@ export const NewsLetter = (): JSX.Element => {
             See Linkout in Action
           </h2>
           <p className="mt-4 text-neutral-300">
-            Explore the Power of Linkout for Your Business
+            Be the first to know when it’s ready
           </p>
         </div>
 
         <a
-          href="https://calendly.adarsh.app/"
+          href="https://getwaitlist.com/waitlist/8031"
           target="_blank"
           className="self-center md:mt-0 mt-8"
         >
@@ -27,7 +27,7 @@ export const NewsLetter = (): JSX.Element => {
               }}
             >
               <div className="py-3 text-center text-white rounded-sm bg-[#0D0B0E]">
-                Book a Demo
+                Join the waitlist
               </div>
             </div>
           </div>

@@ -66,7 +66,9 @@ const Studio = () => {
               Discover Linkout
             </p>
             <p className="text-center mt-6 text-[#808080] text-lg md:px-24 px-8">
-            Automate connection requests and messaging using sales intelligence data. Reach 100 potential customers each day. You'll adore using it for hiring, business development, freelancing, and sales.
+              Automate Connections and Messaging to Engage with 100 Prospective
+              Clients Daily. Boost results in Hiring, Business Growth,
+              Freelancing, and Sales.
             </p>
           </div>
           {/* <div className="mt-9">
@@ -215,13 +217,14 @@ const HeroSection = () => {
           <h1 className="mt-8 text-4xl font-semibold text-center text-white md:text-6xl">
             {/* The <span className="grad">Typescript</span> API framework that boosts developer{' '}
             <span className="grad">productivity</span> */}
-            <span className="grad">LinkedIn</span> Outreach on Autopilot
-            with Safe and Secure <span className="grad">Automation</span>
+            <span className="grad">LinkedIn</span> Outreach on Autopilot with
+            Safe and Secure <span className="grad">Automation</span>
             {/* The <span className='grad'>smart </span> way to develop APIs to boost developer <span className='grad'>productivity</span> */}
           </h1>
           <p className="w-3/4 mx-auto mt-8 text-lg text-center text-white text-opacity-50 md:text-xl">
             {/* Because you deserve the best developer experience */}
-            Automate Connect & Message on LinkedIn. Get updates on Teams and Slack.
+            Automate LinkedIn Connections and Messaging, Get Real-Time Updates
+            on Slack and Teams.
           </p>
           <div
             onClick={() => {
@@ -289,7 +292,7 @@ const LinkoutStudioBeta = ({ customText }: { customText?: string }) => {
     <a
       /* href="/studio" */
       target={"_blank"}
-      href="https://linkout-interface.vercel.app/pages/login/"
+      href="https://ui-prelive.vercel.app/pages/login/"
       className="max-w-max mx-auto group block hover:no-underline"
       onClick={() => {
         track("Read more Linkout Studio click", {
@@ -600,10 +603,11 @@ const CustomInner = ({
     <div
       className={`absolute transition-all bg-black p-3 z-10 rounded-md border border-white border-opacity-10 shadow-2xl top-6 left-32 text-sm text-white 
            ${showOnHover ? "group-hover:opacity-100 opacity-0" : ""}
-            ${display
-          ? "opacity-100 duration-500"
-          : "opacity-0 delay-75 duration-150"
-        }`}
+            ${
+              display
+                ? "opacity-100 duration-500"
+                : "opacity-0 delay-75 duration-150"
+            }`}
       style={{
         maxHeight: display ? (maxHeight ? maxHeight : 320) : 0,
         top: top ? top : 22,
@@ -655,10 +659,11 @@ const FeatureElement = ({
           const size = thisElement.current.getClientRects();
           console.log(size);
         }}
-        className={`rounded-md flex w-max max-w-xs w-full transition-all border cursor-pointer bg-white md:p-5 p-2 ${selected
-          ? "border-t-main bg-opacity-5"
-          : "border-white border-opacity-10 hover:bg-opacity-5 bg-opacity-0"
-          }`}
+        className={`rounded-md flex w-max max-w-xs w-full transition-all border cursor-pointer bg-white md:p-5 p-2 ${
+          selected
+            ? "border-t-main bg-opacity-5"
+            : "border-white border-opacity-10 hover:bg-opacity-5 bg-opacity-0"
+        }`}
       >
         <div>
           <img src={icon} />{" "}
@@ -713,8 +718,9 @@ const CustomCodeNoMemo = ({
       }}
     >
       <div
-        className={`md:px-5 flex px-3 overflow-hidden transition-all duration-700 ease-in-out ${display ? "" : ""
-          }`}
+        className={`md:px-5 flex px-3 overflow-hidden transition-all duration-700 ease-in-out ${
+          display ? "" : ""
+        }`}
         style={{
           maxHeight: display ? (maxHeight ? maxHeight : 100) : 0,
           opacity: display ? (highlight ? 1 : 0.8) : 0,
