@@ -292,7 +292,7 @@ const LinkoutStudioBeta = ({ customText }: { customText?: string }) => {
     <a
       /* href="/studio" */
       target={"_blank"}
-      href="https://ui-prelive.vercel.app/pages/login/"
+      href="https://app.linkout.space/"
       className="max-w-max mx-auto group block hover:no-underline"
       onClick={() => {
         track("Read more Linkout Studio click", {
