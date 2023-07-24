@@ -114,7 +114,7 @@ npx bridge-studio@latest
 pnpx bridge-studio@latest
 ```
 
-**With the plateform:** https://studio.bridge.codes
+**With the plateform:** https://studio.linkout.space
 
 
 ### Fetch your client SDK
@@ -126,6 +126,6 @@ npx fetch-bridge-sdk@latest {username}/{projectName}
 
 ### Access your generated documentation
 
-You'll be able to access your complete generated documentation on https://studio.bridge.codes soon.
+You'll be able to access your complete generated documentation on https://studio.linkout.space soon.
 
-Please visit https://bridge.codes/studio for more information.
+Please visit https://linkout.space/studio for more information.

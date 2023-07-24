@@ -22,11 +22,11 @@ You'll be redirected to the [github login](https://github.com/login/oauth/author
 
 This command-line tool will generate a `bridge.config.json` file for you. To keep your secret token private, consider adding this file to your `.gitignore` before publishing to GitHub.
 
-If you didn't have a Studio Bridge account, this process will create one for you. You can log in to your profile to view and manage your projects at https://studio.bridge.codes.
+If you didn't have a Studio Bridge account, this process will create one for you. You can log in to your profile to view and manage your projects at https://studio.linkout.space.
 
 ### Using the plateform
 
-Connect to https://studio.bridge.codes using your GitHub account to import a project from your GitHub repository. The project will be linked to your repository. To recompile the client SDK, simply click the "Recompile" button on the platform.
+Connect to https://studio.linkout.space using your GitHub account to import a project from your GitHub repository. The project will be linked to your repository. To recompile the client SDK, simply click the "Recompile" button on the platform.
 
 ## Fetch your client SDK
 
@@ -41,6 +41,6 @@ The upcoming version of the command line will allow you to select your preferred
 
 ## Access your generated documentation
 
-You'll be able to access your complete generated documentation on https://studio.bridge.codes soon.
+You'll be able to access your complete generated documentation on https://studio.linkout.space soon.
 
-Please visit https://bridge.codes/studio for more information.
+Please visit https://linkout.space/studio for more information.

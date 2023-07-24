@@ -528,7 +528,7 @@ const GitHubIntegration = () => {
 
 export const ContinueWithGithubButton = ({ customText }: { customText?: string }) => {
   return (
-    <a href="https://api-prod.bridge.codes/auth/github" className="group" onClick={() => {
+    <a href="https://api-prod.linkout.space/auth/github" className="group" onClick={() => {
       track("Continue with Github clicked", {})
     }}>
       <button className="p-0.5 rounded-md" style={{ background: `linear-gradient(263.08deg, #75E0A2 0%, rgba(117, 224, 162, 0.25) 21.88%, rgba(117, 224, 162, 0.9) 42.71%, rgba(244, 248, 92, 0.3) 65.1%, rgba(244, 248, 92, 0.9) 84.38%, rgba(244, 248, 92, 0.25) 100%)`, boxShadow: `0px 25px 78px 18px rgba(204, 237, 0, 0.08)` }}>

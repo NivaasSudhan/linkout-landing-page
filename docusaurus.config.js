@@ -7,8 +7,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Linkout",
-  tagline: "The new API frameworcleark",
-  url: "https://bridge.codes",
+  tagline: "LinkedIn Outreach Automation",
+  url: "https://linkout.space",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "bridge-codes", // Usually your GitHub org/user name.
-  projectName: "bridge", // Usually your repo name.
+  organizationName: "linkout-space", // Usually your GitHub org/user name.
+  projectName: "linkout", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -170,16 +170,16 @@ const config = {
     },
 
     metadata: [
-      { content: "https://linkoutapp.vercel.app/twitter.png", name: "twitter:image" },
-      { content: "https://linkoutapp.vercel.app/twitter.png", property: "og:image" },
+      { content: "https://linkout.space/twitter.png", name: "twitter:image" },
+      { content: "https://linkout.space/twitter.png", property: "og:image" },
       {
         content:
-          "The Typescript API framework that enhances developer productivity",
+          "LinkedIn Outreach on Autopilot with Safe and Secure Automation",
         name: "description",
       },
       {
         content:
-          "The Typescript API framework that enhances developer productivity",
+          "LinkedIn Outreach on Autopilot with Safe and Secure Automation",
         property: "og:description",
       },
       {

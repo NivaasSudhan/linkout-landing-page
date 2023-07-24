@@ -67,4 +67,4 @@ async () => {
 }
 ```
 
-Please visit https://bridge.codes/studio for more information.
+Please visit https://linkout.space/studio for more information.
