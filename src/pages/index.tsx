@@ -66,9 +66,7 @@ const Studio = () => {
               Discover Linkout
             </p>
             <p className="text-center mt-6 text-[#808080] text-lg md:px-24 px-8">
-              Automate Connections and Messaging to Engage with 100 Prospective
-              Clients Daily. Boost results in Hiring, Business Growth,
-              Freelancing, and Sales.
+              Automate Connection Requests and Messaging to Engage with 150 LinkedIn Profiles Everyday. Boost Results in Hiring, Business, Freelancing, and Sales.
             </p>
           </div>
           {/* <div className="mt-9">
@@ -223,8 +221,7 @@ const HeroSection = () => {
           </h1>
           <p className="w-3/4 mx-auto mt-8 text-lg text-center text-white text-opacity-50 md:text-xl">
             {/* Because you deserve the best developer experience */}
-            Automate LinkedIn Connections and Messaging, Get Real-Time Updates
-            on Slack and Teams.
+            Automate LinkedIn Connection Requests and Messaging, Get Updates on Slack and Teams.
           </p>
           <div
             onClick={() => {
@@ -291,8 +288,7 @@ const LinkoutStudioBeta = ({ customText }: { customText?: string }) => {
   return (
     <a
       /* href="/studio" */
-      target={"_blank"}
-      href="https://app.linkout.space/"
+      href="#"
       className="max-w-max mx-auto group block hover:no-underline"
       onClick={() => {
         track("Read more Linkout Studio click", {
