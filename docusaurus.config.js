@@ -39,7 +39,7 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/bridge-codes/bridge/tree/main/www",
+          editUrl: "/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -90,7 +90,7 @@ const config = {
       title: "Linkout",
       logo: {
         alt: "Linkout Logo",
-        src: "img/logo_b.svg",
+        src: "img/logo_w.svg",
         width: 25,
         srcDark: "img/logo_w.svg",
       },
@@ -102,17 +102,17 @@ const config = {
         {
           to: "#",
           label: "Quickstart",
-        },
+        }, */
         {
-          href: "https://github.com/linkoutapp/",
+          href: "https://github.com/linkoutapp/linkout-scraper",
           position: "right",
           className: "header-social-link header-github-link",
           "aria-label": "GitHub",
         },
-        {
+        /* {
           to: "#",
           label: "Linkout",
-        },
+        }, */
         {
           href: "#",
           position: "right",
@@ -124,7 +124,7 @@ const config = {
           position: "right",
           className: "header-social-link header-discord-link",
           "aria-label": "Discord",
-        }, */
+        },
       ],
     },
     footer: {
@@ -160,7 +160,7 @@ const config = {
           items: [
             {
               label: "GitHub",
-              href: "#",
+              href: "https://github.com/linkoutapp/linkout-scraper",
               className: "flex items-center",
             },
           ],

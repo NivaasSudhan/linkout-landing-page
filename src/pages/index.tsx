@@ -66,7 +66,9 @@ const Studio = () => {
               Discover Linkout
             </p>
             <p className="text-center mt-6 text-[#808080] text-lg md:px-24 px-8">
-              Automate Connection Requests and Messaging to Engage with 150 LinkedIn Profiles Everyday. Boost Results in Hiring, Business, Freelancing, and Sales.
+              Automate Connection Requests and Messaging to engage with 200
+              LinkedIn profiles every day. Boost results in Hiring, Business,
+              Freelancing, and Sales.
             </p>
           </div>
           {/* <div className="mt-9">
@@ -221,7 +223,8 @@ const HeroSection = () => {
           </h1>
           <p className="w-3/4 mx-auto mt-8 text-lg text-center text-white text-opacity-50 md:text-xl">
             {/* Because you deserve the best developer experience */}
-            Automate LinkedIn Connection Requests and Messaging, Get Updates on Slack and Teams.
+            Automate LinkedIn Connection Requests and Messaging. Get
+            Notifcations on Slack and Teams.
           </p>
           <div
             onClick={() => {
@@ -287,12 +290,13 @@ const HeroSection = () => {
 const LinkoutStudioBeta = ({ customText }: { customText?: string }) => {
   return (
     <a
-      /* href="/studio" */
-      href="#"
+      href="https://getwaitlist.com/waitlist/8031"
+      target="_blank"
+      /* href="#" */
       className="max-w-max mx-auto group block hover:no-underline"
       onClick={() => {
         track("Read more Linkout Studio click", {
-          text: customText || "Linkout is on Beta",
+          text: customText || "Get early access",
         });
       }}
     >
@@ -308,7 +312,7 @@ const LinkoutStudioBeta = ({ customText }: { customText?: string }) => {
           className="bg-[#010101] group-hover:bg-opacity-90 duration-500 text-opacity-80 items-center hover:text-opacity-100 transition-all flex gap-1 rounded-full pl-6 pr-4 py-2 text-xs uppercase font-medium text-white"
           style={{ letterSpacing: 1.2 }}
         >
-          {customText ? customText : "Linkout is on Beta"}
+          {customText ? customText : "Get early access"}
           <ChevronRightIcon className="w-4 h-4 text-white group-hover:translate-x-0.5 transition-all" />
         </div>
       </div>
