@@ -112,7 +112,7 @@ const config = {
         /* {
           to: "#",
           label: "Linkout",
-        }, */
+        },
         {
           href: "#",
           position: "right",
@@ -124,13 +124,13 @@ const config = {
           position: "right",
           className: "header-social-link header-discord-link",
           "aria-label": "Discord",
-        },
+        }, */
       ],
     },
     footer: {
       style: "dark",
       links: [
-        {
+        /* {
           title: "Docs",
           items: [
             {
@@ -143,18 +143,18 @@ const config = {
         {
           title: "Community",
           items: [
-            /* {
+            {
               label: 'Discord',
               href: '#',
               className: 'flex items-center',
-            }, */
+            },
             {
               label: "Twitter",
               href: "#",
               className: "flex items-center",
             },
           ],
-        },
+        }, */
         {
           title: "More",
           items: [
