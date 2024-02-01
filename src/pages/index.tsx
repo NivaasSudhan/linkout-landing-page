@@ -63,12 +63,12 @@ const Studio = () => {
         <div className="px-4 max-w-6xl mx-auto relative md:pt-60 pt-24 pb-8 z-10">
           <div className="md:w-3/4 mx-auto">
             <p className="font-bold md:text-5xl text-4xl text-white text-center md:px-10 px-8 mt-8">
-              Discover Linkout
+              Unclog your LinkedIn and set it on Autopilot
             </p>
             <p className="text-center mt-6 text-[#808080] text-lg md:px-24 px-8">
-              Automate Connection Requests and Messaging to engage with 200
-              LinkedIn profiles every day. Boost results in Hiring, Business,
-              Freelancing, and Sales.
+              Automate connection requests and messaging to engage with 200+
+              LinkedIn profiles every day. Generate leads from every possible
+              hotspot. Zap them to your tools.
             </p>
           </div>
           {/* <div className="mt-9">
@@ -217,14 +217,14 @@ const HeroSection = () => {
           <h1 className="mt-8 text-4xl font-semibold text-center text-white md:text-6xl">
             {/* The <span className="grad">Typescript</span> API framework that boosts developer{' '}
             <span className="grad">productivity</span> */}
-            <span className="grad">LinkedIn</span> Outreach on Autopilot with
-            Safe and Secure <span className="grad">Automation</span>
+            <span className="grad">10x</span> Your Sales on{" "}
+            <span className="grad">LinkedIn</span>
             {/* The <span className='grad'>smart </span> way to develop APIs to boost developer <span className='grad'>productivity</span> */}
           </h1>
           <p className="w-3/4 mx-auto mt-8 text-lg text-center text-white text-opacity-50 md:text-xl">
             {/* Because you deserve the best developer experience */}
-            Automate LinkedIn Connection Requests and Messaging. Get
-            Notifcations on Slack and Teams.
+            Setup workflows to automate connection requests, messages, and every
+            possible activity on LinkedIn. Get Notifcations on Slack and Teams.
           </p>
           <div
             onClick={() => {
